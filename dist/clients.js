@@ -37,11 +37,6 @@ var NossosClientes = function (_React$Component) {
 									"h4",
 									null,
 									"Nossos Clientes"
-								),
-								React.createElement(
-									"p",
-									null,
-									"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum saepe fuga. Ex voluptate sed doloribus, praesentium quod pariatur deleniti molestiae maiores cum perferendis recusandae laborum consequatur accusantium, veritatis atque."
 								)
 							)
 						)

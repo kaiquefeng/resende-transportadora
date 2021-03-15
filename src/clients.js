@@ -8,9 +8,6 @@ class NossosClientes extends React.Component {
 					<div className="col-md-6 col-md-offset-3">
 						<div className="section_title nice_title">
 							<h4>Nossos Clientes</h4>
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illum saepe fuga. Ex voluptate sed doloribus, praesentium quod pariatur deleniti molestiae maiores cum perferendis recusandae laborum consequatur accusantium, veritatis atque.
-							</p>
 						</div>
 					</div>
 				</div>

@@ -188,7 +188,7 @@
 /* ============================================
 3.              Start Why Us CSS
 ===============================================*/
-.single_why_us {
+.single-card {
   position: relative;
   z-index: 1;
   background: #fff;
@@ -214,21 +214,21 @@
   transition: 0.5s;
 
 }
-.single_why_us:hover .single_why_hover{
+.single-card:hover .single_why_hover{
   opacity: 0.75;
   animation-name: fadeInUp;
   backface-visibility: visible !important;
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-.single_why_us h5 {
+.single-card h5 {
   margin-top: 22px;
   margin-bottom: 21px;
 }
-.single_why_us:hover h5, .single_why_us:hover  p{
+.single-card:hover h5, .single-card:hover  p{
   color: #fff;
 }
-.single_why_us .icon_one{
+.single-card .icon_one{
   display: inline-block;
   width: 74px;
   height: 114px;
@@ -238,10 +238,10 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.single_why_us:hover .icon_one{
+.single-card:hover .icon_one{
   background: url(images/logistic-service-hover.png) no-repeat center center; ;
 }
-.single_why_us .icon_two{
+.single-card .icon_two{
   display: inline-block;
   width: 74px;
   height: 114px;
@@ -251,10 +251,10 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.single_why_us:hover .icon_two{
+.single-card:hover .icon_two{
   background: url(images/warehousing-hover.png) no-repeat center center;
 }
-.single_why_us .icon_three{
+.single-card .icon_three{
   display: inline-block;
   width: 74px;
   height: 114px;
@@ -264,7 +264,7 @@
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-.single_why_us:hover .icon_three{
+.single-card:hover .icon_three{
   background: url(images/customer-service-hover.png) no-repeat center center; ;
 }
 
@@ -425,12 +425,6 @@
   margin-bottom: 22px;
   margin-top: 36px;
 }
-
-/* ============================================
-              End Counter Area
-===============================================*/
-
-
 /* ============================================
 7.            Start Transport Features Area
 ===============================================*/
@@ -491,11 +485,6 @@ body#home_two .transport_features_area {
 .transport_features_area .panel-group .panel-heading + .panel-collapse > .panel-body{
   border-bottom: none;
 }
-
-/* ============================================
-          End Transport Features Area
-===============================================*/
-
 
 /* ============================================
 8.        Start Client Says Area
@@ -563,11 +552,6 @@ body#home_two .all_testimonial_area {
 .all_testimonial_area .section_title {
   margin-bottom: 39px;
 }
-
-/* ============================================
-            End Client Says Area
-===============================================*/
-
 
 /* ============================================
 9.          Start From Our Blog Area
@@ -650,14 +634,6 @@ body#home_two .all_testimonial_area {
   text-align: left;
 }
 
-
-
-/* ============================================
-            End From Our Blog Area
-===============================================*/
-
-
-
 /* ============================================
 10.         Start We Are Best At Area
 ===============================================*/
@@ -666,11 +642,6 @@ body#home_two .all_testimonial_area {
   background: rgba(0, 0, 0, 0) url("images/we-are-best-1.jpg") no-repeat scroll center center;
   background-size: cover;
 }
-
-/* ============================================
-            End We Are Best At Area
-===============================================*/
-
 
 /* ============================================
 11.         Start Breadcrumd Area
@@ -716,12 +687,6 @@ body#home_two .all_testimonial_area {
   margin: 96px 0 32px;
 }
 
-
-/* ============================================
-            End Breadcrumd Area
-===============================================*/
-
-
 /* ============================================
 12.         start About Us Page Area
 ===============================================*/
@@ -729,6 +694,7 @@ body#home_two .all_testimonial_area {
 
 .single_who.first > figure {
   background: rgba(0, 0, 0, 0) url("images/our_vision_bg.jpg") no-repeat scroll 0 0;
+  background-size: cover;
   margin: 0;
 }
 .single_who.second > figure{
@@ -839,13 +805,6 @@ body#about_us .single_weare_best_at, body#home_two .single_weare_best_at {
 .on_parking_area .section_title p:last-child{
   margin-bottom: 0;
 }
-
-
-
-/* ============================================
-          End About Us Page Area
-===============================================*/
-
 
 /* ============================================
 13.       Start Blog Page Area
@@ -1101,14 +1060,6 @@ body#blog_page .breadcrumb_bg h6{
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
-
-/* ============================================
-            End Blog Page Area
-===============================================*/
-
-
-
 /* ============================================
 14.         Start Footer CSS
 ===============================================*/
@@ -2395,10 +2346,29 @@ body#services_page .get_quote_area{
 }
 }
 
-.why_us_area {
+.diferenciais {
   .description {
     margin-bottom: 5rem;
     font-size: 17px;
+  }
+
+  .section_content {
+    .single-card {
+      min-height: 23rem;
+    }
+
+  }
+}
+
+.manifesto-empresa {
+  .section_content {
+    .single-card {
+      min-height: 15rem;
+
+      h5 {
+        font-size: 25px;
+      }
+    }
   }
 }
 
@@ -2410,7 +2380,7 @@ body#services_page .get_quote_area{
 .container {
   width:320px;
 }
-.why_us_area .single_why_us{
+.diferenciais .single-card{
   margin-bottom: 30px;
 }
 .transport_features_area {
