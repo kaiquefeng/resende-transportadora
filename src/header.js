@@ -68,8 +68,7 @@ class Header extends React.Component {
                     <ul className="nav navbar-nav">
                       <li><a href="/">Home</a></li>
                       <li><a href="sobre.html">Sobre</a></li>
-                      <li><a href="services.html">Serviços</a></li>
-                      <li><a href="on-parking.html">Logistica</a></li>
+                      <li><a href="regioes-atendidas.html">Regiões atendidas</a></li>
                       <li role="presentation" className="dropdown">
                           <a id="drop2" href="#" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
                             Contato

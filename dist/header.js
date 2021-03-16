@@ -216,17 +216,8 @@ var Header = function (_React$Component) {
                         null,
                         React.createElement(
                           "a",
-                          { href: "services.html" },
-                          "Servi\xE7os"
-                        )
-                      ),
-                      React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                          "a",
-                          { href: "on-parking.html" },
-                          "Logistica"
+                          { href: "regioes-atendidas.html" },
+                          "Regi\xF5es atendidas"
                         )
                       ),
                       React.createElement(
