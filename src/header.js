@@ -15,16 +15,16 @@ class Header extends React.Component {
                 <div className="col-md-7 col-sm-9">
                   <div className="row">
                     <div className="header_top_service clearfix">
-                      <div className="col-md-4 col-sm-4">
+                      <div className="col-md-4 col-sm-4 endereco">
                         <div className="header_we_are clearfix">
                           <dl>
-                            <dt>We Are Here</dt>
-                            <dd>Sydney  -  Australia</dd>
+                            <dt>Endereço</dt>
+                            <dd>Av. Queiroz Filho, 1700</dd>
                           </dl>
                           <i><img src="images/we-are-here.png" alt=""/></i>
                         </div>
                       </div>
-                      <div className="col-md-4 col-sm-4">
+                      <div className="col-md-4 col-sm-4 contato">
                         <div className="header_we_are clearfix">
                           <dl>
                             <dt>Contato</dt>
@@ -34,7 +34,7 @@ class Header extends React.Component {
                           <i><img src="images/call-us-on.png" alt=""/></i>
                         </div>
                       </div>
-                      <div className="col-md-4 col-sm-4">
+                      <div className="col-md-4 col-sm-4 horario">
                         <div className="header_we_are clearfix">
                           <dl>
                             <dt>Horário de atendimento</dt>
@@ -75,7 +75,7 @@ class Header extends React.Component {
                           </a>
                           <ul id="menu2" className="dropdown-menu" role="menu">
                             <li role="presentation"><a role="menuitem" tabIndex="-1" href="contato.html">Contato</a></li>
-                            <li role="presentation"><a role="menuitem" tabIndex="-1" href="index-two.html">Trabalhe conosco</a></li>
+                            <li role="presentation"><a role="menuitem" tabIndex="-1" href="trabalhe-consco.html">Trabalhe conosco</a></li>
                           </ul>
                       </li>
                       <li><a href="contact.html">Entre em Contato</a></li>

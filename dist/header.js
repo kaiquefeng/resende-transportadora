@@ -57,7 +57,7 @@ var Header = function (_React$Component) {
                       { className: "header_top_service clearfix" },
                       React.createElement(
                         "div",
-                        { className: "col-md-4 col-sm-4" },
+                        { className: "col-md-4 col-sm-4 endereco" },
                         React.createElement(
                           "div",
                           { className: "header_we_are clearfix" },
@@ -67,12 +67,12 @@ var Header = function (_React$Component) {
                             React.createElement(
                               "dt",
                               null,
-                              "We Are Here"
+                              "Endere\xE7o"
                             ),
                             React.createElement(
                               "dd",
                               null,
-                              "Sydney  -  Australia"
+                              "Av. Queiroz Filho, 1700"
                             )
                           ),
                           React.createElement(
@@ -84,7 +84,7 @@ var Header = function (_React$Component) {
                       ),
                       React.createElement(
                         "div",
-                        { className: "col-md-4 col-sm-4" },
+                        { className: "col-md-4 col-sm-4 contato" },
                         React.createElement(
                           "div",
                           { className: "header_we_are clearfix" },
@@ -124,7 +124,7 @@ var Header = function (_React$Component) {
                       ),
                       React.createElement(
                         "div",
-                        { className: "col-md-4 col-sm-4" },
+                        { className: "col-md-4 col-sm-4 horario" },
                         React.createElement(
                           "div",
                           { className: "header_we_are clearfix" },
@@ -245,7 +245,7 @@ var Header = function (_React$Component) {
                             { role: "presentation" },
                             React.createElement(
                               "a",
-                              { role: "menuitem", tabIndex: "-1", href: "index-two.html" },
+                              { role: "menuitem", tabIndex: "-1", href: "trabalhe-consco.html" },
                               "Trabalhe conosco"
                             )
                           )

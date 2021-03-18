@@ -9,7 +9,7 @@ class Footer extends React.Component {
             <div className="footer_top_up">
               <div className="row">
                 <div className="footer_widgets">
-                  <div className="col-md-3 col-sm-6">
+                  <div className="col-md-4 col-sm-6">
                     <div className="single_footer_widgets margin-top-95">
                       <h4 className="widget_title">contato</h4>
                       <ul className="address_list">
@@ -51,22 +51,21 @@ class Footer extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3 col-sm-6">
+                <div className="col-md-2 col-sm-6">
                   <div className="single_footer_widgets margin-top-95">
-                    <h4 className="widget_title">Industry Support</h4>
+                    <h4 className="widget_title">Indústria e suporte</h4>
                     <ul className="industry_support">
-                      <li><a href="#">Packaging options</a></li>
-                      <li><a href="#">Land freight</a></li>
-                      <li><a href="#">Ocean freight</a></li>
-                      <li><a href="#">Air freight</a></li>
-                      <li><a href="#">Contract logistics</a></li>
-                      <li><a href="#">Experts support</a></li>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Sobre</a></li>
+                      <li><a href="#">Regiões atendidas</a></li>
+                      <li><a href="#">Contato</a></li>
+                      <li><a href="#">Trabalhe conosco</a></li>
                     </ul>
                   </div>
                 </div>
                 <div className="col-md-3 hidden-sm hidden-xs">
                   <div className="single_footer_widgets">
-                      <img src="images/footer-logo.png" alt="footer logo"/>
+                      <img src="images/rt-transportes-branco.svg" alt="footer logo"/>
                       <ul class="footer_copyright">
                         <li>Copyright © <a href="#">Resende Transportadora.</a></li>
                         <li>Todos os direitos reservados. 2021</li>

@@ -39,7 +39,7 @@ var Footer = function (_React$Component) {
                   { className: "footer_widgets" },
                   React.createElement(
                     "div",
-                    { className: "col-md-3 col-sm-6" },
+                    { className: "col-md-4 col-sm-6" },
                     React.createElement(
                       "div",
                       { className: "single_footer_widgets margin-top-95" },
@@ -178,14 +178,14 @@ var Footer = function (_React$Component) {
                 ),
                 React.createElement(
                   "div",
-                  { className: "col-md-3 col-sm-6" },
+                  { className: "col-md-2 col-sm-6" },
                   React.createElement(
                     "div",
                     { className: "single_footer_widgets margin-top-95" },
                     React.createElement(
                       "h4",
                       { className: "widget_title" },
-                      "Industry Support"
+                      "Ind\xFAstria e suporte"
                     ),
                     React.createElement(
                       "ul",
@@ -196,7 +196,7 @@ var Footer = function (_React$Component) {
                         React.createElement(
                           "a",
                           { href: "#" },
-                          "Packaging options"
+                          "Home"
                         )
                       ),
                       React.createElement(
@@ -205,7 +205,7 @@ var Footer = function (_React$Component) {
                         React.createElement(
                           "a",
                           { href: "#" },
-                          "Land freight"
+                          "Sobre"
                         )
                       ),
                       React.createElement(
@@ -214,7 +214,7 @@ var Footer = function (_React$Component) {
                         React.createElement(
                           "a",
                           { href: "#" },
-                          "Ocean freight"
+                          "Regi\xF5es atendidas"
                         )
                       ),
                       React.createElement(
@@ -223,7 +223,7 @@ var Footer = function (_React$Component) {
                         React.createElement(
                           "a",
                           { href: "#" },
-                          "Air freight"
+                          "Contato"
                         )
                       ),
                       React.createElement(
@@ -232,16 +232,7 @@ var Footer = function (_React$Component) {
                         React.createElement(
                           "a",
                           { href: "#" },
-                          "Contract logistics"
-                        )
-                      ),
-                      React.createElement(
-                        "li",
-                        null,
-                        React.createElement(
-                          "a",
-                          { href: "#" },
-                          "Experts support"
+                          "Trabalhe conosco"
                         )
                       )
                     )
@@ -253,7 +244,7 @@ var Footer = function (_React$Component) {
                   React.createElement(
                     "div",
                     { className: "single_footer_widgets" },
-                    React.createElement("img", { src: "images/footer-logo.png", alt: "footer logo" }),
+                    React.createElement("img", { src: "images/rt-transportes-branco.svg", alt: "footer logo" }),
                     React.createElement(
                       "ul",
                       { "class": "footer_copyright" },

@@ -82,6 +82,24 @@
 
 .header_logo {
   margin: 24px 0;
+
+  @media (max-width: 980px) {
+    display: flex;
+
+    .header_top_service {
+      .endereco, .horario {
+        display: none;
+      }
+      .contato {
+        dl {
+          width: 100%;
+        }
+        i {
+          display: none;
+        }
+      }
+    }
+  }
 }
 .header_we_are > dl {
   float: left;
@@ -1090,7 +1108,7 @@ body#blog_page .breadcrumb_bg h6{
   display: inline-block;
   float: left;
   line-height: 49px;
-  margin-right: 24px;
+  margin-right: 15px;
   width: 12%;
 }
 .address_list dl {
@@ -1509,10 +1527,34 @@ body#services_page .single_weoffer_best i {
   margin-bottom: 39px;
 }
 
+.experiencia-section {
+  .content {
+    max-width: 900px;
+    margin: 30px auto;
+    display: flex;
 
-/* ============================================
-                End Services Page
-===============================================*/
+    border-bottom: 10px solid #f8cf51;
+    border-radius: 5px;
+    padding: 20px 0;
+    .selo {
+      width: 260px;
+      background: #f7f7f7;
+      border-radius: 5px;
+      padding: 20px;
+    }
+    .info {
+      margin: 0 20px;
+
+      h2 {
+        font-weight: 500;
+      }
+      p {
+        color: #939393;
+        font-size: 16px;
+      }
+    }
+  }
+}
 
 
 /* ============================================

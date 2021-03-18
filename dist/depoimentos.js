@@ -44,7 +44,7 @@ var Depoimentos = function (_React$Component) {
 									React.createElement(
 										"p",
 										null,
-										"Conhe\xE7a o depoimentos de empresas e clientes satisfeitos"
+										"Conhe\xE7a os depoimentos de empresas e clientes satisfeitos"
 									)
 								)
 							)

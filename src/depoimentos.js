@@ -10,7 +10,7 @@ class Depoimentos extends React.Component {
 							<div className="section_title nice_title_white">
 								<h4>Realize a cotação de transporte</h4>
 								<p>
-									Conheça o depoimentos de empresas e clientes satisfeitos
+									Conheça os depoimentos de empresas e clientes satisfeitos
 								</p>
 							</div>
 						</div>
