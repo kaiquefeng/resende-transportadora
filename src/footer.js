@@ -16,8 +16,8 @@ class Footer extends React.Component {
                         <li>
                           <i><img src="images/map-location.png" alt=""/></i>
                           <dl>
-                            <dt>50 Main Design Street</dt>
-                            <dd>Australia - Alabama 55455</dd>
+                            <dt>Endereço</dt>
+                            <dd>Av. Queiroz Filho, 1700</dd>
                           </dl>
                         </li>
                         <li>

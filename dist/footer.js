@@ -65,12 +65,12 @@ var Footer = function (_React$Component) {
                             React.createElement(
                               "dt",
                               null,
-                              "50 Main Design Street"
+                              "Endere\xE7o"
                             ),
                             React.createElement(
                               "dd",
                               null,
-                              "Australia - Alabama 55455"
+                              "Av. Queiroz Filho, 1700"
                             )
                           )
                         ),
